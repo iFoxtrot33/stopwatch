@@ -1,4 +1,4 @@
-name: lintCheck   
+name: ESlint   
 
 on:
   push:

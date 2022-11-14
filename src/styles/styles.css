@@ -1,0 +1,61 @@
+:root {
+  --red: #df2a06;
+  --grey:#f3f3f3;
+  --white: #fff;
+}
+
+/* Mixin's */
+body {
+  background: var(--red);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  color: var(--white);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 50;
+  font-size: 1em;
+}
+
+#between {
+  font-size: 5em;
+}
+
+#seconds, #tens {
+  font-size: 5em;
+}
+
+button {
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: var(--red);
+  color: var(--white);
+  border: solid 1px var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background: var(--white);
+  border: solid 1px var(--white);
+  color: var(--red);
+}/*# sourceMappingURL=styles.css.map */
